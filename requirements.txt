@@ -2,3 +2,4 @@ streamlit
 streamlit-image-select
 pymupdf
 langchain
+camelot-py[cv]
