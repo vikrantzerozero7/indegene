@@ -39,7 +39,7 @@ warnings.filterwarnings("ignore")
 
 # Ensure pdf_d is defined with file paths
 # pdf_d = ["path/to/your/pdf1.pdf"]  # Add more file paths as needed
-
+!huggingface-cli login --token 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
 pdf_d = [
 "ast_sci_data_tables_sample.pdf",
    #"C:/Users/VIKRANT/onedrive/Desktop/INDEGENE/20200125041045198204Electrical Machines by Mr. S. K. Sahdev.pdf",
