@@ -41,7 +41,7 @@ warnings.filterwarnings("ignore")
 # pdf_d = ["path/to/your/pdf1.pdf"]  # Add more file paths as needed
 
 pdf_d = [
-"C:/Users/VIKRANT/onedrive/Desktop/INDEGENE/ast_sci_data_tables_sample.pdf",
+"ast_sci_data_tables_sample.pdf",
    #"C:/Users/VIKRANT/onedrive/Desktop/INDEGENE/20200125041045198204Electrical Machines by Mr. S. K. Sahdev.pdf",
    # "/kaggle/input/indegene3/AI_Russell_Norvig.pdf"
 ] 
@@ -139,8 +139,8 @@ def main():
         img = image_select(
             "Select an Image", 
             [
-                "C:/Users/VIKRANT/OneDrive/Desktop/check/cat1.jpeg", 
-                "C:/Users/VIKRANT/OneDrive/Desktop/check/cat2.jpeg"
+                "cat1.jpeg", 
+                "cat2.jpeg"
             ]
         )
 
