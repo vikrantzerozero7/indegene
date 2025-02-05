@@ -39,7 +39,7 @@ warnings.filterwarnings("ignore")
 
 # Ensure pdf_d is defined with file paths
 # pdf_d = ["path/to/your/pdf1.pdf"]  # Add more file paths as needed
-huggingface-cli login --token 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
+#huggingface-cli login --token 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
 pdf_d = [
 "ast_sci_data_tables_sample.pdf",
    #"C:/Users/VIKRANT/onedrive/Desktop/INDEGENE/20200125041045198204Electrical Machines by Mr. S. K. Sahdev.pdf",
@@ -48,7 +48,7 @@ pdf_d = [
 
 
 from optimum.intel import OVModelForCausalLM
-model = OVModelForCausalLM.from_pretrained("mistralai/Mistral-7B-Instruct-v0.3",load_in_8bit=True, export=True)
+model = OVModelForCausalLM.from_pretrained("mistralai/Mistral-7B-Instruct-v0.3",load_in_8bit=True, export=True,token = "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")
 
 #from pypdf import PdfReader
 pdf_data = []
