@@ -41,8 +41,12 @@ warnings.filterwarnings("ignore")
 # Option 1: Log in using huggingface-cli login
 login("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")
 
-from optimum.intel import OVModelForCausalLM
-model = OVModelForCausalLM.from_pretrained("mistralai/Mistral-7B-Instruct-v0.3",load_in_8bit=True, export=True)
+#from optimum.intel import OVModelForCausalLM
+#model = OVModelForCausalLM.from_pretrained("mistralai/Mistral-7B-Instruct-v0.3",load_in_8bit=True, export=True)
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+#tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-Instruct-v0.3")
+model = AutoModelForCausalLM.from_pretrained("mistralai/Mistral-7B-Instruct-v0.3")
 
 # Ensure pdf_d is defined with file paths
 # pdf_d = ["path/to/your/pdf1.pdf"]  # Add more file paths as needed
