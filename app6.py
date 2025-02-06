@@ -50,7 +50,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 #tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.1-8B-Instruct")
-model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-3.1-8B-Instruct")
+model = AutoModelForCausalLM.from_pretrained("meta-llama/Meta-Llama-3-8B-Instruct")
 
 # Ensure pdf_d is defined with file paths
 # pdf_d = ["path/to/your/pdf1.pdf"]  # Add more file paths as needed
