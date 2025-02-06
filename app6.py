@@ -42,7 +42,7 @@ warnings.filterwarnings("ignore")
 login("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")
 
 from optimum.intel import OVModelForCausalLM
-model = OVModelForCausalLM.from_pretrained("mistralai/Mistral-7B-v0.1",load_in_8bit=True, export=True)
+model = OVModelForCausalLM.from_pretrained("mistralai/Mistral-7B-Instruct-v0.2",load_in_8bit=True, export=True)
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 #tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-Instruct-v0.3")
