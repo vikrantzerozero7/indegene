@@ -45,6 +45,9 @@ from optimum.intel import OVModelForCausalLM
 model = OVModelForCausalLM.from_pretrained("mistralai/Mistral-7B-Instruct-v0.3",load_in_8bit=True, export=True)
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
+from transformers import AutoTokenizer
+tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-Instruct-v0.3")
+
 # Load model directly
 # Load model directly
 from transformers import AutoTokenizer, AutoModelForCausalLM
