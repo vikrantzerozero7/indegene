@@ -3,5 +3,4 @@ streamlit-image-select
 pymupdf
 langchain
 camelot-py[cv]
-
 git+https://github.com/huggingface/optimum-intel.git
