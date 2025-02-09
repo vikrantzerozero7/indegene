@@ -1,5 +1,5 @@
 import streamlit as st
-
+from optimum.intel import OVModelForCausalLM
 # Example list of entries
 entries = ["Entry 1", "Entry 2", "Entry 3", "Entry 4"]
 
