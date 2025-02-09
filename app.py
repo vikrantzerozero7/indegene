@@ -37,7 +37,7 @@ st.write("This app uses OpenVINO for optimizing multimodal chatbot models.")
 
 # Check if a converted model exists
 if st.button("Check Converted Model"):
-    if helper_file:
+    if ov_nano_llava_helper:
         st.success("Converted model exists!")
     else:
         st.warning("Converted model does not exist!")
