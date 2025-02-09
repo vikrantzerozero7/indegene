@@ -37,7 +37,7 @@ st.write("This app uses OpenVINO for optimizing multimodal chatbot models.")
 
 # Check if a converted model exists
 if st.button("Check Converted Model"):
-    if converted_model_exists():
+    if helper_file:
         st.success("Converted model exists!")
     else:
         st.warning("Converted model does not exist!")
